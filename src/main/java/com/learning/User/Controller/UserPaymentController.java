@@ -71,6 +71,7 @@ public class UserPaymentController {
 //			}
 			else {
 
+				//들어온 상품 정보와 실제 상품정보가 맞는지 유효성 검사 추가해야함
 				String l_price = LectureInfo.getL_price().replaceAll(",", "");
 
 				LectureInfo.setL_price(l_price);
