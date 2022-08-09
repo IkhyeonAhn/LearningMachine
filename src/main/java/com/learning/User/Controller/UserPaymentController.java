@@ -71,7 +71,6 @@ public class UserPaymentController {
 //			}
 			else {
 
-				//들어온 상품 정보와 실제 상품정보가 맞는지 유효성 검사 추가해야함
 				String l_price = LectureInfo.getL_price().replaceAll(",", "");
 
 				LectureInfo.setL_price(l_price);
@@ -95,17 +94,23 @@ public class UserPaymentController {
 		String s_id = (String) rq.getSession().getAttribute("u_id");
 		String u_id = rq.getParameter("u_id");
 		String l_code = rq.getParameter("l_code");
+		
 		URegiForm regiform = null;
-		System.out.println(u_id);
+		
 		if (s_id == null || u_id == null || l_code == null) {
-			System.out.println("로그인 안한놈");
+			// 로그인 안했을 경우 에러
 			return null;
 		} else if (u_id.equals(s_id)) {
 
+			// 결제자와 로그인하는 정보가 일치(정상)하는 경우
+			
 			if (UserService.CheckLectureRegist(u_id, l_code) == 1) {
-				System.out.println("이미 있는 결제 인댑쇼?");
+				//이미 결제한 사람이라면 결제 불가능
+				
 				return null;
 			} else {
+				
+				//한번도 결제하지 않은(환불 했어도 되도록 수강 중인 강의로 유효성 검사) 경우 
 				regiform = new URegiForm();
 
 				regiform.setU_id(u_id);
@@ -118,8 +123,10 @@ public class UserPaymentController {
 				paydto.setP_price(rq.getParameter("l_price"));
 
 				if (api.paymentByImpUid(imp_uid).getResponse().getStatus().equals("paid")) {
+					
+					//정상적으로 결제가 된 경우
 					if (paymentService.PayDone(regiform, paydto) == 1) {
-
+						//결제, 강의 수강 등록 서비스 수행
 						return api.paymentByImpUid(imp_uid);
 					} else {
 
@@ -131,8 +138,7 @@ public class UserPaymentController {
 				}
 			}
 		} else {
-
-			System.out.println("십새");
+			//다른사람 사칭하여 결제하는 경우(세션 조작인 경우...조작이 가능한가?)
 			return null;
 		}
 
