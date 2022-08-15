@@ -25,8 +25,6 @@ public class UPaymentDAO {
 		
 		sqlSession.insert(namespace + ".PaymentRegist", dto);
 		
-		System.out.println(dto.getP_no());
-		
 		return dto;
 	}
 }

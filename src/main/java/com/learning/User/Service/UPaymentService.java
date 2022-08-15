@@ -49,6 +49,7 @@ public class UPaymentService {
 			}
 		}else {
 			//실제 가격 정보와 요청한 가격정보가 일치하지 않은 경우
+			System.out.println("가격주작");
 			return 0;
 		}
 
