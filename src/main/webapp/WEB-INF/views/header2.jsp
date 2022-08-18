@@ -310,15 +310,9 @@
 									<button id="closebtn" onclick="CloseModal('VQ');">닫기</button>
 									<table class="table table-hover" style="overflow-y: auto;">
 										<tbody>
-											<c:forEach items="${LectureVideos}" var="Map">
-												<c:set var="key" value="${Map.key}" />
-												<tr>
-													<td>[${Map.key}강] ${Map.value.v_videotitle}</td>
-													<td><a class="btn btn-outline-light"
-															style="background-color: rgba(55, 110, 92, 0.781);"
-															href="./LectureVideo?v_no=${Map.value.v_no}">듣기</a></td>
-												</tr>
-											</c:forEach>
+											<c:forEach items="${VideoQnas}" var="Map">
+												fix. vqlist 출력해주고 모달 열어주기
+											</c:forEach> 
 										</tbody>
 									</table>
 								</div>
