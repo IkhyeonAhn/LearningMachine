@@ -8,7 +8,7 @@
 
     STS ver3.9.9 released / Tomcat 9.0 / mariaDB 10.7
 
- ![main_noLogin](/immg/20220817_193616.png)
- ![main_Login](/immg/0001.png)
- ![main_Login_vq](/immg/20220818_202729.png)
- ![main_Login_recentVideo](/immg/20220818_202914.png)
+ ![main_noLogin](./immg/20220817_193616.png)
+ ![main_Login](./immg/0001.png)
+ ![main_Login_vq](./immg/20220818_202729.png)
+ ![main_Login_recentVideo](./immg/20220818_202914.png)
