@@ -10,8 +10,9 @@
     OS : Windows 11
     IDE : Eclipse 4.23.0, VisualStudio Code,MySQL Workbench
     Server(WAS) : Tomcat 9.0
-    Lanuage : JAVA(Oracle JDK 11)
     Database : MariaDB 10.7
+    Lanuage : JAVA(Oracle JDK 11)
+    Framework : Spring 4.3.25.RELEASE
 
 ## 프로젝트 미리보기
 
