@@ -6,8 +6,12 @@
 <hr>
 
 ## 개발 환경
-
-    STS ver3.9.9 released / Tomcat 9.0 / mariaDB 10.7
+    
+    OS : Windows 11
+    IDE : Eclipse 4.23.0, VisualStudio Code,MySQL Workbench
+    Server(WAS) : Tomcat 9.0
+    Lanuage : JAVA(Oracle JDK 11)
+    Database : MariaDB 10.7
 
 ## 프로젝트 미리보기
 
@@ -21,9 +25,16 @@
  ![LectureList_noLogin](./img/20220817_193717.png)
  ![LectureList_Login](./img/20220818_202835.png)
 
+ ### 강의 결재
+ ![LectureList_Login](./img/20220818_203321.png)
+ 
  ### 강의실
  ![Lecture_noLogin](./img/20220817_193810.png)
  ![Lecture_Login](./img/20220818_202948.png)
  ![Lecture_noLogin_Review](./img/0002.png)
  ![Lecture_Login_Review](./img/20220818_203010.png)
+ 
+ ### 강의 영상
+  ![Lecture_Video_qna_Login_](./img/20220818_203100.png)
+  ![Lecture_Viedo_List](./img/0003.png)
  
