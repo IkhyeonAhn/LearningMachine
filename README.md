@@ -4,11 +4,26 @@
 <small>제작기간 : 2022.07.04 ~ 2022.08.01</small> <br>
 <small>개발자 : <a href = "https://github.com/IkhyeonAhn">안익현</a>, <a href="https://github.com/Hijineee">이희진</a>,  <a href = "https://github.com/skek3039">명재성</a>, <a href="https://github.com/Moonmaji">문형석</a>, <a href="https://github.com/ParkGuTy">박성균</a></small>
 <hr>
-개발 환경
+
+## 개발 환경
 
     STS ver3.9.9 released / Tomcat 9.0 / mariaDB 10.7
 
+## 프로젝트 미리보기
+
+ ### 메인화면
  ![main_noLogin](./img/20220817_193616.png)
  ![main_Login](./img/0001.png)
  ![main_Login_vq](./img/20220818_202729.png)
  ![main_Login_recentVideo](./img/20220818_202914.png)
+ 
+ ### 강의목록
+ ![LectureList_noLogin](./img/20220817_193717.png)
+ ![LectureList_Login](./img/20220818_202835.png)
+
+ ### 강의실
+ ![Lecture_noLogin](./img/20220817_193810.png)
+ ![Lecture_Login](./img/20220818_202948.png)
+ ![Lecture_noLogin_Review](./img/0002.png)
+ ![Lecture_Login_Review](./img/20220818_203010.png)
+ 
