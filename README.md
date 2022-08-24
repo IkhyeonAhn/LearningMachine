@@ -6,14 +6,14 @@
 <hr>
 
  - ## **개발 환경**
-    ```
-    OS : Windows 11<br>
-    IDE : Eclipse 4.23.0, VisualStudio Code,MySQL Workbench<br>
-    Server(WAS) : Tomcat 9.0<br>
-    Database : MariaDB 10.7<br>
-    Lanuage : JAVA(Oracle JDK 11)<br>
-    Framework : Spring 4.3.25.RELEASE<br>
-    ```
+  ```
+  OS : Windows 11<br>
+  IDE : Eclipse 4.23.0, VisualStudio Code,MySQL Workbench
+  Server(WAS) : Tomcat 9.0
+  Database : MariaDB 10.7
+  Lanuage : JAVA(Oracle JDK 11)
+  Framework : Spring 4.3.25.RELEASE
+  ```
  - ## **프로젝트 주요화면**
 
     - ### 메인화면
