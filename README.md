@@ -8,7 +8,7 @@
  - ## **개발 환경**
   ```
   OS : Windows 11<br>
-  IDE : Eclipse 4.23.0, VisualStudio Code,MySQL Workbench
+  IDE : Eclipse 4.23.0, VisualStudio Code, MySQL Workbench
   Server(WAS) : Tomcat 9.0
   Database : MariaDB 10.7
   Lanuage : JAVA(Oracle JDK 11)
