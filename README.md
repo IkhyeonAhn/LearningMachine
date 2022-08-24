@@ -5,20 +5,20 @@
 <small>개발자 : <a href = "https://github.com/IkhyeonAhn">안익현</a>, <a href="https://github.com/Hijineee">이희진</a>,  <a href = "https://github.com/skek3039">명재성</a>, <a href="https://github.com/Moonmaji">문형석</a>, <a href="https://github.com/ParkGuTy">박성균</a></small>
 <hr>
 
-## 개발 환경
-    
-    OS : Windows 11
-    IDE : Eclipse 4.23.0, VisualStudio Code,MySQL Workbench
-    Server(WAS) : Tomcat 9.0
-    Database : MariaDB 10.7
-    Lanuage : JAVA(Oracle JDK 11)
-    Framework : Spring 4.3.25.RELEASE
+ - ## **개발 환경**
+    ```
+    OS : Windows 11<br>
+    IDE : Eclipse 4.23.0, VisualStudio Code,MySQL Workbench<br>
+    Server(WAS) : Tomcat 9.0<br>
+    Database : MariaDB 10.7<br>
+    Lanuage : JAVA(Oracle JDK 11)<br>
+    Framework : Spring 4.3.25.RELEASE<br>
+    ```
+ - ## **프로젝트 주요화면**
 
-##  - 프로젝트 주요화면
-
- ### - * 메인화면*
+    - ### 메인화면
  ![main_noLogin](./img/20220817_193616.png)
- 로그인을 하지않은 상태의 메인페이지입니다.
+        - 로그인을 하지않은 상태의 메인페이지입니다.
  
  ![main_Login](./img/0001.png)
  로그인을 한 상태의 메인 페이지<br>
