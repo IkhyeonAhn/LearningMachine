@@ -37,8 +37,8 @@
 	 - 내가 최근에 들은 동영상리스트를 들은 날짜 기준으로 내림차순 정렬하여 보여줍니다.
 	 - 영상 제목을 클릭하면 해당 링크로 이동합니다.
  
+![main_Login_recentVideo](./img/0006.png)
 ![main_Login_recentVideo](./img/0007.png)
-![main_Login_recentVideo](./img/0008.png)
 
   ### 강의목록
 ![LectureList_noLogin](./img/20220817_193717.png)
