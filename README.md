@@ -2,39 +2,39 @@
 
 # **Learning Machine**
 
-<h3>  IT 교육 컨텐츠를 제공하는 웹 사이트</h3>
+ <h3>  IT 교육 컨텐츠를 제공하는 웹 사이트</h3>
 
  - ## **프로젝트 개요**
- + 프로젝트명 : 러닝머신(Learning Machine)
- + 제작기간 : 2022.07.04 ~ 2022.08.01
- + 프로젝트 목적 :
-	  - 개발자들의 자기개발을 위한 다양한 컨텐츠 제공
-	  - COVID-19로 인한 온라인 교육의 필요성
-	  - 시간과 장소에 제한받지 않고 고품질 컨텐츠를 효율적으로 관리
+	 + 프로젝트명 : 러닝머신(Learning Machine)
+	 + 제작기간 : 2022.07.04 ~ 2022.08.01
+	 + 프로젝트 목적 :
+		  - 개발자들의 자기개발을 위한 다양한 컨텐츠 제공
+		  - COVID-19로 인한 온라인 교육의 필요성
+		  - 시간과 장소에 제한받지 않고 고품질 컨텐츠를 효율적으로 관리
 	  
 	  
  - ## **팀구성 및 역할 분담**
-개발 : <a href = "https://github.com/IkhyeonAhn">안익현</a>, <a href="https://github.com/Hijineee">이희진</a>,  <a href = "https://github.com/skek3039">명재성</a>, <a href="https://github.com/Moonmaji">문형석</a>, <a href="https://github.com/ParkGuTy">박성균</a><br>
-```
-안익현 : 프로젝트 전체적인 기능 및 요구사항 도출, DB설계 및 구현, 유저페이지 기능과 UI 구현, 팀원 역할 배분
-이희진 : 관리자 페이지 상세 기능 요구사항 도출,관리자페이지 기능과 UI 구현
-명재성 : 강사 페이지 상세 기능 요구사항 도출, 강사페이지 기능과 UI구현
-문형석 : 강사페이지 기능과 UI구현
-박성균 : 관리자 페이지 기능과 UI구현, 사용자 공통기능(회원가입, 로그인) 구현
-```
+	 + 개발 : <a href = "https://github.com/IkhyeonAhn">안익현</a>, <a href="https://github.com/Hijineee">이희진</a>,  <a href = "https://github.com/skek3039">명재성</a>, <a href="https://github.com/Moonmaji">문형석</a>, <a href="https://github.com/ParkGuTy">박성균</a><br>
+	```
+	안익현 : 프로젝트 전체적인 기능 및 요구사항 도출, DB설계 및 구현, 유저페이지 기능과 UI 구현, 팀원 역할 배분
+	이희진 : 관리자 페이지 상세 기능 요구사항 도출,관리자페이지 기능과 UI 구현
+	명재성 : 강사 페이지 상세 기능 요구사항 도출, 강사페이지 기능과 UI구현
+	문형석 : 강사페이지 기능과 UI구현
+	박성균 : 관리자 페이지 기능과 UI구현, 사용자 공통기능(회원가입, 로그인) 구현
+	```
 
  - ## **개발 환경**
-  ```
-  OS : Windows 11
-  IDE : Eclipse 4.23.0, VisualStudio Code, MySQL Workbench
-  Server(WAS) : Tomcat 9.0
-  Database : MariaDB 10.7
-  Lanuage : JAVA(Oracle JDK 11)
-  Framework : Spring 4.3.25.RELEASE
-  ```
+	  ```
+	  OS : Windows 11
+	  IDE : Eclipse 4.23.0, VisualStudio Code, MySQL Workbench
+	  Server(WAS) : Tomcat 9.0
+	  Database : MariaDB 10.7
+	  Lanuage : JAVA(Oracle JDK 11)
+	  Framework : Spring 4.3.25.RELEASE
+	  ```
 
  - ## **ER 다이어그램**
-![ERD](./img/erd.png)
+	![ERD](./img/erd.png)
 
  - ## **프로젝트 주요화면**
 
