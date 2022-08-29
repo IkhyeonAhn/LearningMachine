@@ -55,6 +55,10 @@
 		 - 강의를 결제했을 경우에만 영상에 대한 질문 작성 가능
 		 - 본인이 작성한 질문만 수정, 삭제 가능하도록 유효성 검사
 		 - 강사가 이미 나의 질문에 답변을 달았을 경우 수정 불가
+	+ 쪽지 읽기, 보내기, 삭제 : [ULectureService.java](https://github.com/IkhyeonAhn/LearningMachine/blob/main/src/main/java/com/learning/Common/Service/MessageService.java)
+		 - 로그인을 한 상태에서만 쪽지를 보낼 수 있습니다.
+		 - 본인이 보낸 쪽지만 삭제할 수 있습니다
+		 - 이미 상대가 내 쪽지를 읽었다면 삭제했을 때 나에게서만 보이지 않게됩니다.(수정 필요)
 
 
  - ## **프로젝트 주요화면(유저)**
@@ -110,6 +114,7 @@
 	  - 결제하지 않은 강의라면 결제하기 버튼이 출력됩니다.
 	  - 결제한 강의라면 처음부터 듣기 버튼만 출력됩니다.
 	  - 결제한 상태에서 듣고 있던 강의가 있다면 이어듣기 버튼이 출력됩니다.
+	  - 쪽지버튼을 눌러 선생님에게 쪽지를 보낼 수 있습니다.
 
 ![Lecture_noLogin_Review](./img/0002.png)
 ![Lecture_noLogin_QNA](./img/0004.png)
