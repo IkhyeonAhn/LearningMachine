@@ -55,7 +55,7 @@
 		 - 강의를 결제했을 경우에만 영상에 대한 질문 작성 가능
 		 - 본인이 작성한 질문만 수정, 삭제 가능하도록 유효성 검사
 		 - 강사가 이미 나의 질문에 답변을 달았을 경우 수정 불가
-	+ 쪽지 읽기, 보내기, 삭제 : [ULectureService.java](https://github.com/IkhyeonAhn/LearningMachine/blob/main/src/main/java/com/learning/Common/Service/MessageService.java)
+	+ 쪽지 읽기, 보내기, 삭제 : [MessageService.java](https://github.com/IkhyeonAhn/LearningMachine/blob/main/src/main/java/com/learning/Common/Service/MessageService.java)
 		 - 로그인을 한 상태에서만 쪽지를 보낼 수 있습니다.
 		 - 본인이 보낸 쪽지만 삭제할 수 있습니다
 		 - 이미 상대가 내 쪽지를 읽었다면 삭제했을 때 나에게서만 보이지 않게됩니다.(수정 필요)
