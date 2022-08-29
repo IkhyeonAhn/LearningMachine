@@ -42,16 +42,16 @@
 		  - Iamport 결제API를 활용한 결제 유효성 검사
 		  - 이미 결제한 강의면 결제 취소 후 해당 강의실로 이동
 		  - 해당 강의가 찜하기가 되어있는 강의라면 결제 성공 시 찜 목록에서 삭제
-	 + 비디오 시청 : [ULectureController.java](#https://github.com/IkhyeonAhn/LearningMachine/blob/403beca95e0573a5e1cafa55b837e14efbe1ae7e/src/main/java/com/learning/User/Controller/ULectureController.java#L63)
+	 + 비디오 시청 : [ULectureController.java](https://github.com/IkhyeonAhn/LearningMachine/blob/403beca95e0573a5e1cafa55b837e14efbe1ae7e/src/main/java/com/learning/User/Controller/ULectureController.java#L63)
 		 - 강의 결제 여부에 따라 보여줄 수 있는 강의 수 제한(미결제 시 미리보기 최대 3개)
-	 + 강의 리뷰 작성, 수정, 삭제 : [ULectureService.java.java](#https://github.com/IkhyeonAhn/LearningMachine/blob/403beca95e0573a5e1cafa55b837e14efbe1ae7e/src/main/java/com/learning/User/Service/ULectureService.java#L267)
+	 + 강의 리뷰 작성, 수정, 삭제 : [ULectureService.java.java](https://github.com/IkhyeonAhn/LearningMachine/blob/403beca95e0573a5e1cafa55b837e14efbe1ae7e/src/main/java/com/learning/User/Service/ULectureService.java#L285)
 		 - 강의 결제 여부에 따라 리뷰 작성 제한
 		 - 본인이 작성한 리뷰라면 수정, 삭제 가능
-	 + 강의 Q&A 작성, 수정, 삭제 : [ULectureService.java](#https://github.com/IkhyeonAhn/LearningMachine/blob/403beca95e0573a5e1cafa55b837e14efbe1ae7e/src/main/java/com/learning/User/Service/ULectureService.java#L321)
+	 + 강의 Q&A 작성, 수정, 삭제 : [ULectureService.java](https://github.com/IkhyeonAhn/LearningMachine/blob/403beca95e0573a5e1cafa55b837e14efbe1ae7e/src/main/java/com/learning/User/Service/ULectureService.java#L321)
 		  - 로그인이 되어있을 경우 최대 3개의 질문 작성 가능
 		  - 본인이 작성한 질문만 수정, 삭제 가능하도록 유효성 검사
 		  - 강사가 이미 나의 질문에 답변을 달았을 경우 수정 불가
-	+ 강의 영상 질문 작성, 수정, 삭제 : [ULectureService.java](#https://github.com/IkhyeonAhn/LearningMachine/blob/403beca95e0573a5e1cafa55b837e14efbe1ae7e/src/main/java/com/learning/User/Service/ULectureService.java#L267)
+	+ 강의 영상 질문 작성, 수정, 삭제 : [ULectureService.java](https://github.com/IkhyeonAhn/LearningMachine/blob/403beca95e0573a5e1cafa55b837e14efbe1ae7e/src/main/java/com/learning/User/Service/ULectureService.java#L267)
 		 - 강의를 결제했을 경우에만 영상에 대한 질문 작성 가능
 		 - 본인이 작성한 질문만 수정, 삭제 가능하도록 유효성 검사
 		 - 강사가 이미 나의 질문에 답변을 달았을 경우 수정 불가
