@@ -1,6 +1,3 @@
-
-
-
 # **Learning Machine**
 
  <h3>  IT 교육 컨텐츠를 제공하는 웹 사이트</h3>
@@ -37,7 +34,13 @@
  - ## **ER 다이어그램**
 	![ERD](./img/erd.png)
 
- - ## **프로젝트 주요화면**
+- ## **프로젝트 주요코드(유저)**
+
+
+ ![결제 컨트롤러](#https://github.com/IkhyeonAhn/LearningMachine/blob/main/src/main/java/com/learning/User/Controller/UserPaymentController.java) 이동
+ 
+
+ - ## **프로젝트 주요화면(유저)**
 
   ### 메인화면
 ![main_noLogin](./img/20220817_193616.png)
