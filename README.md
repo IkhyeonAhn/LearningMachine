@@ -32,7 +32,7 @@
 	  Framework : Spring 4.3.25.RELEASE
 	  ```
 
- - ## **ER 다이어그램**
+ - ## **데이터베이스 구성도(ERD)**
 	![ERD](./img/erd.png)
 
 - ## **프로젝트 주요코드(유저)**
