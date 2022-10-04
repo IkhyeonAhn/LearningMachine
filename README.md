@@ -33,7 +33,7 @@
 	  ```
 
  - ## **데이터베이스 구성도(ERD)**
-	![ERD](./img/erd.png)
+	![ERD](https://github.com/IkhyeonAhn/LearningMachine/blob/main/img/erd.png)
 
 - ## **프로젝트 주요코드(유저)**
 
