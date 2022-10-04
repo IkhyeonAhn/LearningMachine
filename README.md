@@ -119,7 +119,7 @@
 	 - 강의에 대한 평점이 표시됩니다.
 	 - 로그인을 하지 않았을 경우 쪽지 및 결제하기 버튼을 누르면 로그인창으로 이동됩니다.
 
-![Lecture_Login](./img/20220818_202948.png)
+![Lecture_Login](https://github.com/IkhyeonAhn/LearningMachine/blob/main/img/20220818_202948.png)
  + 로그인 한 상태의 강의실입니다.
 	  - 결제하지 않은 강의라면 결제하기 버튼이 출력됩니다.
 	  - 결제한 강의라면 처음부터 듣기 버튼만 출력됩니다.
@@ -133,8 +133,8 @@
 	  - Q&A를 조회할 수 있습니다.
 	  - 로그인을 하지 않았기 때문에 작성버튼이 표시되지 않습니다.
 	
-![Lecture_Login_Review](./img/20220818_203010.png)
-![Lecture_noLogin_QNA](./img/0005.png)
+![Lecture_Login_Review](http://github.com/IkhyeonAhn/LearningMachine/blob/main/img/20220818_203010.png)
+![Lecture_noLogin_QNA](https://github.com/IkhyeonAhn/LearningMachine/blob/main/img/0005.png)
   + 로그인한 상태의 리뷰(강의실페이지), Q&A 기능입니다.
 	  - 구매를 한 강의라면 리뷰작성버튼이 표시되며 리뷰를 작성할 수 있습니다.
 	  - 구매를 하지 않은 강의여도 Q&A를 최대 3개까지 작성할 수 있습니다.
