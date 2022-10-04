@@ -133,7 +133,7 @@
 	  - Q&A를 조회할 수 있습니다.
 	  - 로그인을 하지 않았기 때문에 작성버튼이 표시되지 않습니다.
 	
-![Lecture_Login_Review](http://github.com/IkhyeonAhn/LearningMachine/blob/main/img/20220818_203010.png)
+![Lecture_Login_Review](https://github.com/IkhyeonAhn/LearningMachine/blob/main/img/20220818_203010.png)
 ![Lecture_noLogin_QNA](https://github.com/IkhyeonAhn/LearningMachine/blob/main/img/0005.png)
   + 로그인한 상태의 리뷰(강의실페이지), Q&A 기능입니다.
 	  - 구매를 한 강의라면 리뷰작성버튼이 표시되며 리뷰를 작성할 수 있습니다.
